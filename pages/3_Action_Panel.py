@@ -54,6 +54,6 @@ with container1:
     with tab15:
         st.markdown("#### View Audit History")
         container151 = st.container()
-        container152 = st.container()
+        options=st.multiselect("find", options= ("Client name", "Purchase made", "date"))
         df= pd.read_csv(".localdata/FEOC_Audit_log_data_test.csv")
         st.table(df)
