@@ -60,7 +60,7 @@ with container1:
         st.markdown("#### Send Communications")
         container141 = st.container()
     # Selector for "Who are you?"
-        user_type = st.selectbox("Who are you?", ["Emitter", "Provider", "Other", "Development Team"])
+        user_type = st.selectbox("Process position", ["Emitter", "Provider", "Other", "Development Team"])
         
         name = st.text_input("Name", "")
         email = st.text_input("Email", "")
