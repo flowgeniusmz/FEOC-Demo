@@ -46,7 +46,16 @@ with container1:
     with tab13:
         st.markdown("#### Add a Party")
         container131 = st.container()
-        container132 = st.container()
+        st.write("You can add new parties (users within your company) here and track their processes.")
+        party_name = st.text_input("New user's Name", "")
+        party_email = st.text_input("New user's Email", "")
+        party_role = st.text_input("user's Role within your organization", "")
+        user_type = st.selectbox("User type", ["A Emitter", "B Provider", "C Development Team"])
+        if st.button("Add Party"):
+            if party_name and party_email and party_role and user_type:
+                st.success(f"Party added successfully: {party_name}, {party_email}, {party_role}, {user_type}")
+        else:
+            st.error("Please fill in all the fields")
     with tab14:
         st.markdown("#### Send Communications")
         container141 = st.container()
