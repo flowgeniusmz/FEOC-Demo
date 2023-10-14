@@ -1,5 +1,5 @@
 import streamlit as st
-impport pandas as pd
+import pandas as pd
 from pagesetup import set_title
 
 
