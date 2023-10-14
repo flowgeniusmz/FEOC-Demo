@@ -1,8 +1,8 @@
 [theme]
 base="light"
 primaryColor="#35495E"
-secondaryBackgroundColor="#5BC0BE"
-textColor="#333333"
+secondaryBackgroundColor="#3365B2"
+textColor="#000000"
 
 [browser]
 gatherUsageStats = false
