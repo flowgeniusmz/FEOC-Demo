@@ -6,7 +6,7 @@ from pagesetup import set_title
 if 'authenticated' not in st.session_state:
     get_loginform()
 else:
-    set_title("FEOC", "Home")
+    set_title("Faulkner Emission Offset Certificate Program", "Home")
     st.divider()
     main_container = st.container()
     with main_container:
