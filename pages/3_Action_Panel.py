@@ -50,7 +50,22 @@ with container1:
     with tab14:
         st.markdown("#### Send Communications")
         container141 = st.container()
-        container142 = st.container()
+    # Selector for "Who are you?"
+        user_type = st.selectbox("Who are you?", ["Emitter", "Provider", "Other", "Development Team"])
+        
+        name = st.text_input("Name", "")
+        email = st.text_input("Email", "")
+        message = st.text_area("Message", "")
+        
+        # Selector for "Who you are reaching out to?"
+        recipient = st.selectbox("Who you are reaching out to?", ["Emitter", "Provider", "Other", "Development Team"])
+        
+        if st.button("Submit"):
+            if name and email and message:
+                st.success("Message sent successfully!")
+                st.write(f"You are {user_type}, reaching out to {recipient}.")
+            else:
+                st.error("Please fill in all the fields.")
     with tab15:
         st.markdown("#### View Audit History")
         container151 = st.container()
