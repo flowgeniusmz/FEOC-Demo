@@ -1,4 +1,5 @@
 import streamlit as st
+impport pandas as pd
 from pagesetup import set_title
 
 
@@ -54,5 +55,5 @@ with container1:
         st.markdown("#### View Audit History")
         container151 = st.container()
         container152 = st.container()
-    
-
+        df= pd.read_csv(".localdata/FEOC_Audit_log_data_test.csv")
+        st.table(df)
