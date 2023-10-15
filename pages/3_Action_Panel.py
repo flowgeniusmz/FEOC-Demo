@@ -27,7 +27,6 @@ with container1:
 
             exp1112 = st.expander("Details", expanded=True)
             with exp1112:
-                st.markdown("#### Detail Notes:")
                 st.markdown("- The AI chatbot is available at all times in the Action Panel's sidebar, providing continuous support for your data-related inquiries.")
                 st.markdown("- Interaction with the chatbot is as simple as typing your questions or requests in the chat window and receiving immediate responses.")
                 st.markdown("- The chatbot can help you extract data insights, perform data analysis, and assist with various data-related tasks, enhancing your experience with the web app.")
