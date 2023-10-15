@@ -6,7 +6,7 @@ from pagesetup import set_title
 def load_image(Image_name):
     img= Image.open(Image_name)
     return img
-img= load_image('')
+img= load_image('.localdata/FG-Logo-612x312px.png')
 st.set_page_config(page_title='FEOC FG', page_icon=img)
 
 
