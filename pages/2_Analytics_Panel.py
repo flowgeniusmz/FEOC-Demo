@@ -55,7 +55,7 @@ with container1:
 container2 = st.container()
 
 with container2:
-    exp3 = st.expander("Live sensor data details", expanded=True)
+    exp3 = st.expander("Live sensor data details")
     with exp3:
         st.write("In our environmental monitoring project, data was collected by a network of state-of-the-art sensors strategically placed in and around oil refineries across three different countries.") 
         st.write("These advanced sensors were strategically installed at critical locations within the refineries to measure key pollutants, including carbon monoxide (CO), nitrogen dioxide (NO2), sulfur dioxide (SO2), and unburned hydrocarbons (UHC). The sensors were designed to capture real-time data, and they transmitted this information to our central monitoring system. The sensors were periodically calibrated to ensure the accuracy of the measurements.The data collection process was managed by a team of dedicated experts who conducted routine maintenance checks to ensure the sensors were functioning optimally. Each sensor was equipped with GPS for precise location tracking, and data was timestamped to provide a record of when each measurement was taken. This comprehensive approach allowed us to gather valuable insights into the emissions and air quality surrounding these refineries. Our goal was to provide investors and purchasing teams with reliable information regarding the environmental impact of these refineries. The collected data was analyzed to calculate annual carbon reduction metrics, enabling us to report on the refinery's commitment to offsetting carbon emissions.") 
@@ -64,12 +64,12 @@ with container2:
 container3 = st.container()
 
 with container3:
-    exp4 =st.expander("Live sensor geospacial graphing")
+    exp4 =st.expander("Live sensor geospacial graphing", expanded=True)
     with exp4:
         st.write('New graphed data loaded upon login')
         places = pd.read_csv('.localdata/refinery_sensor_data_test.csv')
         st.map(places)
-
+        st.table(places)
 
 container4 = st.container()
 
