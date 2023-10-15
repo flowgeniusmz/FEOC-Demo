@@ -34,6 +34,7 @@ with st.sidebar:
         #ask the data cont. (this will be present in the sidebar at all times)
 with tabC:
     st.text_area("Write notes here:")
+    st.success(f"your notes have been recordedy")
 
 #Initiate Financial Transactions               
     with tab12:
