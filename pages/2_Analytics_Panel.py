@@ -66,8 +66,8 @@ container3 = st.container()
 with container3:
     exp4 =st.expander("Live sensor geospacial graphing")
     with exp4:
-
-     places = pd.read_csv()
+        st.write('New graphed data loaded upon login')
+        places = pd.read_csv('.localdata/refinery_sensor_data_test.csv')
         st.map(places)
 
 
