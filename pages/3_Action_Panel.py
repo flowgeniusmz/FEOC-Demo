@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 from pagesetup import set_title
+import requests
 
 
 st.set_page_config(layout="wide")
@@ -122,6 +123,15 @@ with tabC:
         
         if st.button("Submit"):
             if name and email and message:
+                sURL = st.secrets.HTTP_URL_COMMS
+                sBody = {
+                    "sender": user_type,
+                    "name": name,
+                    "email": email,
+                    "message": message,
+                    "recipient": recipient
+                }
+                sRequest = requests.post(url=sURL, json=sBody)
                 st.success("Message sent successfully!")
                 st.write(f"You are {user_type}, reaching out to {recipient}.")
             else:
