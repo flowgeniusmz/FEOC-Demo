@@ -2,7 +2,7 @@ import streamlit as st
 from pagesetup import set_title
 import pandas as pd
 import numpy as np
-from charts.chart_heatmap import render_heatmap_cartesian
+from charts.heatmap import render_heatmap_cartesian
 
 st.set_page_config(layout="wide")
 set_title("FEOC", "Analytics Panel")
