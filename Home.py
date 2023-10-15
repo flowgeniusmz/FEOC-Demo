@@ -3,11 +3,8 @@ from login import get_loginform
 from pagesetup import set_title
 
 #update the tab
-def load_image(Image_name):
-    img= Image.open(Image_name)
-    return img
-img= load_image('.localdata/FG-Logo-612x312px.png')
-st.set_page_config(page_title='FEOC FG', page_icon=img)
+img= Image.open('.localdata/FG-Logo-612x312px.png')
+st.set_page_config(page_title='FG FEOC', page_icon=img)
 
 
 if 'authenticated' not in st.session_state:
