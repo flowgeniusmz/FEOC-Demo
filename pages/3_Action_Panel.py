@@ -29,8 +29,28 @@ with container1:
             exp1122 = st.expander("Details", expanded=True)
             with exp1122:
                 st.write("Hello")
+ #Initiate Financial Transactions               
     with tab12:
         st.markdown("#### Initiate Financial Transaction")
+        menu = st.selectbox("Menu", ["Add Transaction", "View Transactions"])
+        if menu == "Add Transaction":
+            st.subheader("Add Transaction")
+            certificate_id = st.text_input("Certificate ID (Front-facing ID)", "")
+            start_date = st.date_input("Start Date", None)
+            end_date = st.date_input("End Date", None)
+            duration = st.number_input("Duration (in days)", value=0)
+            commitments = st.text_area("Financial/Contractual Commitments", "")
+            project_description = st.text_area("Project Description", "")
+            if st.button("Submit Transaction"):
+                if certificate_id and start_date and end_date and duration and commitments and project_description:
+                    st.success("Transaction added successfully!")
+            else:
+                st.error("Please fill in all the fields")
+
+        elif menu == "View Transactions":
+            df= pd.read_csv("/workspaces/FEOC-Demo/localdata/FEOC_transactionlist_dataset_test (1).csv")
+            st.table(df)
+        
         container121 = st.container()
         with container121:
             exp1211 = st.expander("Instructions", expanded=True)
