@@ -32,6 +32,8 @@ with st.sidebar:
                 st.markdown("- Interaction with the chatbot is as simple as typing your questions or requests in the chat window and receiving immediate responses.")
                 st.markdown("- The chatbot can help you extract data insights, perform data analysis, and assist with various data-related tasks, enhancing your experience with the web app.")
         #ask the data cont. (this will be present in the sidebar at all times)
+with tabC:
+    st.text_area("Write notes here:")
 
 #Initiate Financial Transactions               
     with tab12:
