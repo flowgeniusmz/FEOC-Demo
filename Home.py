@@ -2,6 +2,9 @@ import streamlit as st
 from login import get_loginform
 from pagesetup import set_title
 
+#img= Image.open('')
+#st.set_page_config(page_title='FEOC FG', page_icon=img)
+
 if 'authenticated' not in st.session_state:
     get_loginform()
 else:
