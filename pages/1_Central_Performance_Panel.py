@@ -4,7 +4,8 @@ from pagesetup import set_title
 st.set_page_config(layout="wide")
 set_title("FEOC", "Central Performance Panel")
 st.divider()
-
+st.progress(.5, "Total Emissions Reduced")
+st.divider()
 main_container = st.container()
 with main_container:
     exp1 = st.expander("Certificate Information", expanded=True)
