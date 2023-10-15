@@ -10,6 +10,8 @@ st.divider()
 container1 = st.container()
 with container1:
     tab11, tab12, tab13 ,tab14, tab15 = st.tabs(["Ask the Data", "Initiate Financial Transaction", "Add a Party", "Send Communications", "View Audit Log"])
+with st.sidebar:
+    tabA, tabB, tabC = st.tabs(["Common Questions", "Quick summary", "notes")
     
 #Ask The Data
     with tab11:
@@ -32,6 +34,7 @@ with container1:
                 st.markdown("- The chatbot can help you extract data insights, perform data analysis, and assist with various data-related tasks, enhancing your experience with the web app.")
         #ask the data cont. (this will be present in the sidebar at all times)
 
+    
     
  #Initiate Financial Transactions               
     with tab12:
