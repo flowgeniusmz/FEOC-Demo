@@ -11,7 +11,7 @@ container1 = st.container()
 with container1:
     tab11, tab12, tab13 ,tab14, tab15 = st.tabs(["Ask the Data", "Initiate Financial Transaction", "Add a Party", "Send Communications", "View Audit Log"])
 with st.sidebar:
-    tabA, tabB, tabC = st.tabs(["Common Questions", "Quick summary", "notes")
+    tabA, tabB, tabC = st.tabs(["Common Questions", "Quick summary", "notes"])
     
 #Ask The Data
     with tab11:
