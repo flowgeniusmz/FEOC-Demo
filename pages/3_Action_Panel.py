@@ -20,23 +20,20 @@ with st.sidebar:
         with container111:
             exp1111 = st.expander("Instructions", expanded=True)
             with exp1111:
-                st.markdown("1. **Ask the Data with AI:** An AI chatbot is available in the Action Panel's sidebar. You can ask the chatbot anything about the data and receive real-time responses.")
-                st.markdown("2. **Data Inquiry:** To interact with the AI chatbot, type your data-related questions or requests in the chat window located in the sidebar of the Action Panel.")
-                st.markdown("3. **AI Assistance:** The chatbot is equipped to provide information, insights, and perform data-related tasks based on your queries. It can assist with data retrieval, analysis, and more.")
-                st.markdown("4. **User-Friendly:** The AI chatbot is designed to be user-friendly and responsive. You can initiate conversations, seek information, and engage with it just like you would with a human assistant.")
-                st.markdown("5. **Streamlined Data Access:** The AI chatbot streamlines your access to data, making it convenient and efficient to gather insights and perform data-driven tasks.")
-                st.markdown("6. **Ask Anything:** Feel free to ask questions about certificates, transactions, financial commitments, parties involved, project descriptions, or any other data-related topic. The chatbot is here to assist you!")
-
+                st.markdown("1. **Data Inquiry:** The AI chatbot, located under these notes, is here to assist you with data-related questions. Simply type your data inquiries in the chat window.")
+                st.markdown("2. **AI Assistance:** The chatbot is equipped to provide information, insights, and perform data-related tasks based on your queries. It can assist with data retrieval, analysis, and more.")
+                st.markdown("3. **User-Friendly:** The chatbot is designed to be user-friendly and responsive. You can initiate conversations, seek information, and engage with it just like you would with a human assistant.")
+                st.markdown("4. **Streamlined Data Access:** The AI chatbot streamlines your access to data, making it convenient and efficient to gather insights and perform data-driven tasks.")
+                st.markdown("5. **Ask Anything:** Feel free to ask questions about certificates, transactions, financial commitments, parties involved, project descriptions, or any other data-related topic. The chatbot is here to assist you!")
+                
             exp1112 = st.expander("Details", expanded=True)
             with exp1112:
-                st.markdown("- The AI chatbot is available at all times in the Action Panel's sidebar, providing continuous support for your data-related inquiries.")
+                st.markdown("- The AI chatbot is located in the Action Page, under these notes, providing continuous support for your data-related inquiries.")
                 st.markdown("- Interaction with the chatbot is as simple as typing your questions or requests in the chat window and receiving immediate responses.")
                 st.markdown("- The chatbot can help you extract data insights, perform data analysis, and assist with various data-related tasks, enhancing your experience with the web app.")
         #ask the data cont. (this will be present in the sidebar at all times)
 
-    
-    
- #Initiate Financial Transactions               
+#Initiate Financial Transactions               
     with tab12:
         st.markdown("#### Initiate Financial Transaction")
         container121 = st.container()
