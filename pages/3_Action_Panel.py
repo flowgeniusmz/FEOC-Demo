@@ -10,7 +10,7 @@ st.divider()
 container1 = st.container()
 with container1:
     tab11, tab12, tab13 ,tab14, tab15 = st.tabs(["Ask the Data", "Initiate Financial Transaction", "Add a Party", "Send Communications", "View Audit Log"])
-
+#Ask The Data
     with tab11:
         st.markdown("#### Ask the Data")
         container111 = st.container()
@@ -21,14 +21,9 @@ with container1:
             exp1112 = st.expander("Details", expanded=True)
             with exp1112:
                 st.write("Hello")
-        container112 = st.container()
-        with container112:
-            exp1121 = st.expander("Instructions", expanded=True)
-            with exp1121:
-                st.write("Hello")
-            exp1122 = st.expander("Details", expanded=True)
-            with exp1122:
-                st.write("Hello")
+#ask the data cont. (this will be present in the sidebar at all times)
+
+    
  #Initiate Financial Transactions               
     with tab12:
         st.markdown("#### Initiate Financial Transaction")
