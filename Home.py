@@ -2,11 +2,6 @@ import streamlit as st
 from login import get_loginform
 from pagesetup import set_title
 
-#update the tab
-img= Image.open('.localdata/FG-Logo-612x312px.png')
-st.set_page_config(page_title='FG FEOC', page_icon=img)
-
-
 if 'authenticated' not in st.session_state:
     get_loginform()
 else:
