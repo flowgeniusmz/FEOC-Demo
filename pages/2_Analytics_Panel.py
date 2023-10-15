@@ -69,7 +69,7 @@ with container3:
         st.write('New graphed data loaded upon login')
         places = pd.read_csv('.localdata/refinery_sensor_data_test.csv')
         st.map(places)
-        st.table(places)
+        
 
 container4 = st.container()
 
