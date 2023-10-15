@@ -48,7 +48,7 @@ with container1:
                 st.error("Please fill in all the fields")
 
         elif menu == "View Transactions":
-            df= pd.read_csv("/workspaces/FEOC-Demo/localdata/FEOC_transactionlist_dataset_test (1).csv")
+            df= pd.read_csv(".localdata/FEOC_transactionlist_dataset_test (1).csv")
             st.table(df)
         
         container121 = st.container()
