@@ -2,6 +2,7 @@ import streamlit as st
 from pagesetup import set_title
 import pandas as pd
 import numpy as np
+from charts.chart_heatmap import render_heatmap_cartesian
 
 st.set_page_config(layout="wide")
 set_title("FEOC", "Analytics Panel")
@@ -48,8 +49,7 @@ with container1:
             #st.dataframe(chart_data12)
         with col13:
             st.markdown("#### Chart 3") 
-            chart_data13 = pd.DataFrame(np.random.randn(20, 3), columns=["a", "b", "c"])
-            st.area_chart(chart_data13)
+            render_heatmap_cartesian()
             #st.dataframe(chart_data13)
 
 
@@ -63,7 +63,7 @@ with container2:
             st.markdown("#### Chart 1")
             chart_data21 = pd.DataFrame(np.random.randn(20, 3), columns=["a", "b", "c"])
             st.line_chart(chart_data21)
-            st.dataframe(chart_data21)
+            #st.dataframe(chart_data21)
         with col22:
             st.markdown("#### Chart 2")
             chart_data22 = pd.DataFrame(np.random.randn(200, 3), columns=["a", "b", "c"])
@@ -79,12 +79,12 @@ with container2:
                 },
             },
             )
-            st.dataframe(chart_data22)
+            #st.dataframe(chart_data22)
         with col23:
             st.markdown("#### Chart 3")
             chart_data23 = pd.DataFrame(np.random.randn(20, 3), columns=["a", "b", "c"])
             st.area_chart(chart_data23)
-            st.dataframe(chart_data23)
+            #st.dataframe(chart_data23)
 
 container3 = st.container()
 
