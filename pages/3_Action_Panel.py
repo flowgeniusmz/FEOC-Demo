@@ -32,6 +32,36 @@ with container1:
  #Initiate Financial Transactions               
     with tab12:
         st.markdown("#### Initiate Financial Transaction")
+        container121 = st.container()
+        with container121:
+            exp1211 = st.expander("Instructions", expanded=True)
+            with exp1211:
+                st.markdown("#### Instructions:")
+                st.markdown("1. **Certificate ID:** This is a user-friendly, front-facing ID that uniquely identifies the certificate. Upon creation, an API key will be automatically linked to this ID, establishing the data connection for the certificate.")
+                st.markdown("2. **Dates and Duration:** Select a start date, and either (a) specify an end date or (b) provide a duration. If you specify one, the other will be automatically calculated for you.")
+                st.markdown("3. **Financial or Contractual Commitments:** Enter any financial or contractual commitments associated with the certificate. This could include financial obligations, contract terms, or other related commitments. Please note that this list is not exhaustive, and you can include any relevant information.")
+                st.markdown("4. **Project Description:** Provide a project description. This description is a key input for AI prompts and automation. The AI will use this input to create the project description.")
+                st.markdown("5. **Information for Parties Involved:")
+                st.markdown("   - **Company Information (5a):** The company information will prepopulate after the company is searched for and selected. This may include details about the company involved in the certificate.")
+                st.markdown("   - **People Information (5b):** This includes establishing the owner, who is responsible for the execution of the contract, and additional company users. You have the ability to add usernames and passwords for users as needed.")
+                st.markdown("   - **Other Information (5c):** Capture any other specific information required for the certificate. This could include additional details relevant to the parties involved.")
+                st.markdown("6. **Submit Button:** Click the \"Submit\" button to compile all the provided information. This will create an electronic contract, send it out for electronic signature by all parties (owners), and upon execution, the certificate will store the contract and automatically generate the certificate.")
+                st.markdown("7. **Custom Terms and Conditions:** You have the ability to use AI to insert any additional terms and conditions. This feature allows you to include specific, customized terms and conditions as needed for the certificate.")
+            exp1212 = st.expander("Details", expanded=True)
+            with exp1212:
+                st.markdown("#### Detail Notes:")
+                st.markdown("- The Certificate ID serves as a unique and user-friendly identifier for certificates. It ensures easy reference and access to certificate-related data.")
+                st.markdown("- The ability to choose between specifying an end date or duration provides flexibility when defining the certificate's timeline.")
+                st.markdown("- For financial or contractual commitments, consider including details such as payment schedules, terms, and conditions that parties involved need to adhere to.")
+                st.markdown("- The project description is a crucial input that aids in generating automated project descriptions, streamlining processes, and enhancing efficiency.")
+                st.markdown("- The inclusion of company information simplifies data entry by prepopulating relevant details.")
+                st.markdown("- People information, including the owner and additional users, contributes to the management and execution of the certificate. It allows for user access control.")
+                st.markdown("- Custom Terms and Conditions provide the flexibility to adapt the contract to specific project requirements and legal terms. Using AI to generate these terms ensures accuracy and consistency.")
+                st.markdown("- The \"Submit\" button streamlines the process by automating the generation of electronic contracts and facilitating electronic signatures, reducing manual paperwork.")
+                st.markdown("- The linkage of an API key to the Certificate ID establishes the necessary data connections for efficient data management and retrieval.")
+                
+
+        
         menu = st.selectbox("Menu", ["Add Transaction", "View Transactions"])
         if menu == "Add Transaction":
             st.subheader("Add Transaction")
@@ -51,14 +81,8 @@ with container1:
             df= pd.read_csv(".localdata/FEOC_transactionlist_dataset_test (1).csv")
             st.table(df)
         
-        container121 = st.container()
-        with container121:
-            exp1211 = st.expander("Instructions", expanded=True)
-            with exp1211:
-                st.write("Hello")
-            exp1212 = st.expander("Details", expanded=True)
-            with exp1212:
-                st.write("Hello")
+        
+            
         container122 = st.container()
         with container122:
             exp1221 = st.expander("Instructions", expanded=True)
