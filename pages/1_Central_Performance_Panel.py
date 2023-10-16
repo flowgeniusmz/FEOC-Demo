@@ -31,10 +31,10 @@ with main_container:
             st.markdown("#### Notifications and Alerts")
             txtAlerts = st.text_area(
                 label="**Alerts:**",
-                value="""**Alert 1:** 10/01/2023 Financial transaction initiated by John Doe  
-**Alert 2:** 10/01/2023 Financial transaction initiated by John Doe  
-**Alert 3:** 10/01/2023 Financial transaction initiated by John Doe  
-**Alert 4:** 10/01/2023 Financial transaction initiated by John Doe """,
+                value="""**Alert 1:** 10/01/2023 Financial transaction initiated by Emitter 
+**Alert 2:** 10/015/2023 Financial transaction initiated by Provider  
+**Alert 3:** 10/24/2023 New Purchaser Added - PanAm Airlines  
+**Alert 4:** 10/31/2023 Compliance Meeting Scheduled """,
                 disabled=True)
         
 
