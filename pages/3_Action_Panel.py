@@ -101,7 +101,7 @@ with tabC:
         st.write("You can add new parties (users within your company) here and track their processes.")
         party_name_first_name = st.text_input("New user's First Name", "")
         party_name_last_name = st.text_input("New user's Last Name", "")
-        party_role = st.text.input("New user's role in the organization", "")
+        party_role = st.text_input("New user's role in the organization", "")
         party_email = st.text_input("New user's Email", "")
         party_phone = st.text_input("New user's phone number", "")
         if st.button("Add Party"):
