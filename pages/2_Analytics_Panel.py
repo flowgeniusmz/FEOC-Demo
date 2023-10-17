@@ -60,7 +60,7 @@ with container2:
     exp3 = st.expander("Live sensor data details")
     with exp3:
         st.write("In our environmental monitoring project, data was collected by ...")
-        places = pd.read_csv('.localdata/refinery_sensor_data_test.csv')
+        places = pd.read_csv('.localdata/refinery_sensor_data_test 2.csv')
         st.map(places)
 
 # Operational Analytics
