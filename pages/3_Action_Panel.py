@@ -106,7 +106,7 @@ with tabC:
         party_phone = st.text_input("New user's phone number", "")
         if st.button("Add Party"):
             if party_name_first_name and party_name_last_name and party_role and party_email and party_phone:
-                st.success(f"New User added successfully: representative:{party_name_first_name} {party_name_last_name}, {party_role}. contact information: {party_email}, {party_phone}")
+                st.success(f"New User added successfully: representative: {party_name_first_name} {party_name_last_name}, {party_role}. contact information: {party_email}, {party_phone}")
         else:
             st.error("Please fill in all the fields, thank you!")
     with tab14:
