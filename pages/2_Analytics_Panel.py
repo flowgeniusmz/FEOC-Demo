@@ -3,7 +3,7 @@ from pagesetup import set_title
 import pandas as pd
 import numpy as np
 from charts.heatmap import render_heatmap_cartesian
-from st_card import st_card
+
 
 st.set_page_config(layout="wide")
 set_title("FEOC", "Analytics Panel")
