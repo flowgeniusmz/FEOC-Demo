@@ -24,7 +24,6 @@
     streamlit-modal
     streamlit-metrics
     extra-streamlit-components
-    st-card
     plotly
     plotly-express
     scikit-learn
