@@ -1,27 +1,39 @@
-streamlit
-streamlit-on-Hover-tabs
-streamlit-option-menu
-streamlit-authenticator
-streamlit-tags
-streamlit-echarts
-streamlit-observable
-streamlit-terran-timeline
-streamlit-antd-components
-st-btn-group
-streamlit-chatbox
-st-login-form
-streamlit-calendar
-st-pages
-streamlit-aggrid
-streamlit-lottie
-supabase
-streamlit-webrtc
-streamlit-elements
-streamlit-extras
-langchain
-openai
-pandas
-numpy
-llama-index
-nltk
-replicate
+    streamlit
+    streamlit-on-Hover-tabs
+    streamlit-option-menu
+    streamlit-authenticator
+    streamlit-tags
+    streamlit-echarts
+    streamlit-observable
+    streamlit-terran-timeline
+    streamlit-antd-components
+    st-btn-group
+    streamlit-chatbox
+    st-login-form
+    streamlit-calendar
+    st-pages
+    streamlit-aggrid
+    streamlit-lottie
+    supabase
+    streamlit-webrtc
+    streamlit-elements
+    streamlit-extras
+    streamlit-apexjs
+    streamlit-card 
+    streamlit-pandas-profiling
+    streamlit-modal
+    streamlit-metrics
+    extra-streamlit-components
+    st-card
+    plotly
+    plotly-express
+    scikit-learn
+    seaborn
+    pandas-profiling
+    langchain
+    openai
+    pandas
+    numpy
+    llama-index
+    nltk
+    replicate
