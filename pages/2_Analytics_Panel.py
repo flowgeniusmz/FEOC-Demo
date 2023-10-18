@@ -16,8 +16,8 @@ with container0:
     with exp0:
         col01, col02, col03 = st.columns(3)
         with col01:
-            #st.metric("Carbon Reduction Commitment", "1,500,000 Tons", "+250,000")
-            st_card("Carbon Reduction Commitment", value = 1500000, show_progress = True)
+            st.metric("Carbon Reduction Commitment", "1,500,000 Tons", "+250,000")
+            #st_card("Carbon Reduction Commitment", value = 1500000, show_progress = True)
         with col02:
             st.metric("Net Zero Fuel Sales", "$1,500,000", "+$300,000")
         with col03:
