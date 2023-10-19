@@ -36,3 +36,6 @@
     llama-index
     nltk
     replicate
+    hydralit
+    hydralit_components
+    st-supabase-connection
