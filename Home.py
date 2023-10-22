@@ -21,16 +21,16 @@ menu_data = [
     {'icon': "fa-solid fa-radar",'label':"Dropdown2", 'submenu':[{'label':"Sub-item 1.1", 'icon': "fa fa-meh"},{'label':"Sub-item 2"},{'icon':'🙉','label':"Sub-item 3",}]},
 ]
     
-    over_theme = {'txc_inactive': '#FFFFFF'}
-    menu_id = hc.nav_bar(
-        menu_definition=menu_data,
-        override_theme=over_theme,
-        home_name='Home',
-        login_name='Logout',
-        hide_streamlit_markers=False, #will show the st hamburger as well as the navbar now!
-        sticky_nav=True, #at the top or not
-        sticky_mode='pinned', #jumpy or not-jumpy, but sticky or pinned
-    )
+over_theme = {'txc_inactive': '#FFFFFF'}
+menu_id = hc.nav_bar(
+    menu_definition=menu_data,
+    override_theme=over_theme,
+    home_name='Home',
+    login_name='Logout',
+    hide_streamlit_markers=False, #will show the st hamburger as well as the navbar now!
+    sticky_nav=True, #at the top or not
+    sticky_mode='pinned', #jumpy or not-jumpy, but sticky or pinned
+)
     
 
 if 'authenticated' not in st.session_state:
