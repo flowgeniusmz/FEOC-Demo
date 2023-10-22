@@ -1,7 +1,7 @@
 import streamlit as st
 from login import get_loginform
 from pagesetup import set_title
-import hydralit_compnents as hc
+import hydralit_components as hc
 from Central_Performance_Panel import display_Central_Performance_Panel
 
 #img= Image.open('.localdata/FG-Logo-612x312px.png')
