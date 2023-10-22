@@ -1,5 +1,5 @@
 import streamlit as st
-from login import get_loginform
+#from login import get_loginform
 #from pagesetup import set_title
 import hydralit_components as hc
 from Central_Performance_Panel import display_Central_Performance_Panel
@@ -12,12 +12,11 @@ from Central_Performance_Panel import display_Central_Performance_Panel
 # specify the primary menu definition
 menu_data = [
     {'icon': "far fa-copy", 'label':"Left End"},
-    {'id':'Copy','icon':"🐙",'label':"Copy"},
+    {'id':'Copy','icon':"🐙",'label':"Central Performance Panel"},
     {'icon': "fa-solid fa-radar",'label':"Dropdown1", 'submenu':[{'icon': "fa fa-paperclip", 'label':"Sub-item 1"},{'id':'subid12','icon': "💀", 'label':"Sub-item 2"},{'id':'subid13','icon': "fa fa-database", 'label':"Sub-item 3"}]},
     {'icon': "far fa-chart-bar", 'label':"Chart"},#no tooltip message
     {'id':' Crazy return value 💀','icon': "💀", 'label':"Calendar"},
     {'icon': "fas fa-tachometer-alt", 'label':"Dashboard",'ttip':"I'm the Dashboard tooltip!"}, #can add a tooltip message
-    {'icon': "far fa-copy", 'label':"Right End"},
     {'icon': "fa-solid fa-radar",'label':"Dropdown2", 'submenu':[{'label':"Sub-item 1.1", 'icon': "fa fa-meh"},{'label':"Sub-item 2"},{'icon':'🙉','label':"Sub-item 3",}]},
 ]
     
@@ -39,7 +38,7 @@ else:
  
     
     
-    if menu_id== 'Home':
+    if menu_id== 'Central Performance Panel':
         display_Central_Performance_Panel()
     
     set_title("Faulkner Emission Offset Certificate Program", "Home")
