@@ -1,28 +1,25 @@
 import streamlit as st
 from login import get_loginform
-from pagesetup import set_title
+#from pagesetup import set_title
 import hydralit_components as hc
 from Central_Performance_Panel import display_Central_Performance_Panel
 
 #img= Image.open('.localdata/FG-Logo-612x312px.png')
 #st.set_page_config(page_title='FEOC FG', page_icon=img)
 
-if 'authenticated' not in st.session_state:
-    get_loginform()
-else:
-    #make it look nice from the start
-    st.set_page_config(layout='wide',initial_sidebar_state='collapsed',)
-    # specify the primary menu definition
-    menu_data = [
-        {'icon': "far fa-copy", 'label':"Left End"},
-        {'id':'Copy','icon':"🐙",'label':"Copy"},
-        {'icon': "fa-solid fa-radar",'label':"Dropdown1", 'submenu':[{'icon': "fa fa-paperclip", 'label':"Sub-item 1"},{'id':'subid12','icon': "💀", 'label':"Sub-item 2"},{'id':'subid13','icon': "fa fa-database", 'label':"Sub-item 3"}]},
-        {'icon': "far fa-chart-bar", 'label':"Chart"},#no tooltip message
-        {'id':' Crazy return value 💀','icon': "💀", 'label':"Calendar"},
-        {'icon': "fas fa-tachometer-alt", 'label':"Dashboard",'ttip':"I'm the Dashboard tooltip!"}, #can add a tooltip message
-        {'icon': "far fa-copy", 'label':"Right End"},
-        {'icon': "fa-solid fa-radar",'label':"Dropdown2", 'submenu':[{'label':"Sub-item 1.1", 'icon': "fa fa-meh"},{'label':"Sub-item 2"},{'icon':'🙉','label':"Sub-item 3",}]},
-    ]
+#make it look nice from the start
+#st.set_page_config(layout='wide',initial_sidebar_state='collapsed',)
+# specify the primary menu definition
+menu_data = [
+    {'icon': "far fa-copy", 'label':"Left End"},
+    {'id':'Copy','icon':"🐙",'label':"Copy"},
+    {'icon': "fa-solid fa-radar",'label':"Dropdown1", 'submenu':[{'icon': "fa fa-paperclip", 'label':"Sub-item 1"},{'id':'subid12','icon': "💀", 'label':"Sub-item 2"},{'id':'subid13','icon': "fa fa-database", 'label':"Sub-item 3"}]},
+    {'icon': "far fa-chart-bar", 'label':"Chart"},#no tooltip message
+    {'id':' Crazy return value 💀','icon': "💀", 'label':"Calendar"},
+    {'icon': "fas fa-tachometer-alt", 'label':"Dashboard",'ttip':"I'm the Dashboard tooltip!"}, #can add a tooltip message
+    {'icon': "far fa-copy", 'label':"Right End"},
+    {'icon': "fa-solid fa-radar",'label':"Dropdown2", 'submenu':[{'label':"Sub-item 1.1", 'icon': "fa fa-meh"},{'label':"Sub-item 2"},{'icon':'🙉','label':"Sub-item 3",}]},
+]
     
     over_theme = {'txc_inactive': '#FFFFFF'}
     menu_id = hc.nav_bar(
@@ -35,6 +32,11 @@ else:
         sticky_mode='pinned', #jumpy or not-jumpy, but sticky or pinned
     )
     
+
+if 'authenticated' not in st.session_state:
+    get_loginform()
+else:
+ 
     
     
     if menu_id== 'Home':
