@@ -1,6 +1,7 @@
 import streamlit as st
 from login import get_loginform
 from pagesetup import set_title
+from Central_Performance_Panel import display_Central_Performance_Panel
 
 #img= Image.open('.localdata/FG-Logo-612x312px.png')
 #st.set_page_config(page_title='FEOC FG', page_icon=img)
