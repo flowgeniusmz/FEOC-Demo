@@ -1,7 +1,6 @@
 import streamlit as st
 
 def display_Analytics_Panel():
-  from pagesetup import set_title
   import pandas as pd
   import numpy as np
   from charts.heatmap import render_heatmap_cartesian
