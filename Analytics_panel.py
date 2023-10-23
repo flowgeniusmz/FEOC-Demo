@@ -44,11 +44,11 @@ def display_Analytics_panel():
     #     })
     #     st.bar_chart(chart_data13.set_index('Months'))
 
-    Live Sensor Data
-    st.header("Live Sensor Data Details")
-    st.write("In our environmental monitoring project, data was collected by ...")
-    places = pd.read_csv('.localdata/refinery_sensor_data_test_extended_values.csv')
-    st.map(places)
+    # Live Sensor Data
+    # st.header("Live Sensor Data Details")
+    # st.write("In our environmental monitoring project, data was collected by ...")
+    # places = pd.read_csv('.localdata/refinery_sensor_data_test_extended_values.csv')
+    # st.map(places)
 
     # # Operational Analytics
     # st.header("Operational Analytics")
