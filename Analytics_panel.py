@@ -101,5 +101,5 @@ def display_Analytics_panel():
     })
     st.bar_chart(feedback_data.set_index('Rating'))
 
-if __name__ == '__main__':
-    st.write("Streamlit Analytics Dashboard")
+    if __name__ == '__main__':
+        st.write("Streamlit Analytics Dashboard")
