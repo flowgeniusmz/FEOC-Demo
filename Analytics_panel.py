@@ -7,12 +7,12 @@ def display_Analytics_panel():
 
     # Key Metrics
     st.header("Key Metrics")
-    col01, col02, col03 = st.columns(3)
-    with col01:
+    col1, col2, col3 = st.columns(3)
+    with co11:
         st.metric("Carbon Reduction Commitment", "1,500,000 Tons", "+250,000")
-    with col02:
+    with col2:
         st.metric("Net Zero Fuel Sales", "$1,500,000", "+$300,000")
-    with col03:
+    with col3:
         st.metric("Project Financing", "$5,000,000", "-$500,000")
 
     # # Financial Analytics
