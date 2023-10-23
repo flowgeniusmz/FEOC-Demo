@@ -8,7 +8,7 @@ from Central_Performance_Panel import display_Central_Performance_Panel
 if 'authenticated' not in st.session_state:
     get_loginform()
 else:
-    st.set_page_config(layout='wide',page_title="Faulkner Emission Offset Certificate Program",page_icon=")
+    st.set_page_config(layout='wide',page_title="Faulkner Emission Offset Certificate Program")
     "---"
 # specify the primary menu definition
     menu_data = [
