@@ -23,7 +23,7 @@ else:
         home_name='Home',
         login_name='Logout',
         hide_streamlit_markers=True,
-        sticky_nav=True,
+        sticky_nav=False,
         sticky_mode='sticky',  # 'jumpy' or 'not-jumpy', but sticky or pinned
 )
 
