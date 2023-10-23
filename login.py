@@ -3,7 +3,7 @@ from st_login_form import login_form
 from supabase import create_client, client
 
 def get_loginform():
-    client = login_form()
+    client = login_form(allow_guest=False)
 
     if st.session_state.authenticated:
         if st.session_state.username:
