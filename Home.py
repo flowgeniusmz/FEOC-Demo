@@ -31,19 +31,19 @@ else:
     if menu_id== 'Performance Panel':
         display_Central_Performance_Panel()
 
-    if menu_id== 'Create a Certificate':
+    elif menu_id== 'Create a Certificate':
         display_Central_Performance_Panel()
 
-    if menu_id== 'monitor existing certificates':
+    elif menu_id== 'monitor existing certificates':
         display_existing_certificates()
 
-    if menu_id== "contact partner(s)":
+    elif menu_id== "contact partner(s)":
         display_contact_partners()
 
-    if menu_id== 'Analytics Panel':
+    elif menu_id== 'Analytics Panel':
         display_analytics_panel()
         
-    if menu_id== 'Home':
+    elif menu_id== 'Home':
         st.header("Welcome")
         # Main content
         st.write("Welcome to the Emission Solutions Web App!")
