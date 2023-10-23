@@ -4,11 +4,11 @@ from pagesetup import set_title
 import hydralit_components as hc
 from Central_Performance_Panel import display_Central_Performance_Panel
 
-#img= Image.open('.localdata/FG-Logo-612x312px.png')
+img= Image.open('.localdata/FG-Logo-612x312px.png')
 if 'authenticated' not in st.session_state:
     get_loginform()
 else:
-    st.set_page_config(layout='wide',page_title="Faulkner Emission Offset Certificate Program")
+    st.set_page_config(layout='wide',page_title="Faulkner Emission Offset Certificate Program", icon="img")
     "---"
 # specify the primary menu definition
     menu_data = [
@@ -33,8 +33,14 @@ else:
     if menu_id== 'Create a Certificate':
         display_Central_Performance_Panel()
 
-    #if menu_id== 'monitor existing certificates':
-    
+    if menu_id== 'monitor existing certificates':
+        display_existing_certificates()
+
+    if menu_id== "contact partner(s)":
+        display_contact_partners()
+
+    if menu_id== 'Analytics Panel':
+        display_analytics_panel()
     
     # main_container = st.container()
     # with main_container:
