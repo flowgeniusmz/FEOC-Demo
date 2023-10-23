@@ -17,7 +17,7 @@ else:
         {'label':"Action Panel",'':"Dropdown1", 'submenu':[{'label':"Create a Certificate"},{'id':'subid12', 'label':"monitor existing certificates"},{'id':'subid13', 'label':"contact partner(s)"}]},
         {'label':"Analytics Panel"},
     ]   
-    over_theme = {'txc_active': '#FFFFFF'}
+    over_theme = {'txc_active': '#000000'}
     menu_id = hc.nav_bar(
         menu_definition=menu_data,
         override_theme=over_theme,
