@@ -1,6 +1,6 @@
 import streamlit as st
-#from login import get_loginform
-#from pagesetup import set_title
+from login import get_loginform
+from pagesetup import set_title
 import hydralit_components as hc
 from Central_Performance_Panel import display_Central_Performance_Panel
 
