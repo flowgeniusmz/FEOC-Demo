@@ -11,8 +11,6 @@ st.set_page_config(layout='wide', page_title="Faulkner Emission Offset Certifica
 if 'authenticated' not in st.session_state:
     get_loginform()
 else:
-    
-# specify the primary menu definition
     menu_data = [
         {'label':"Performance Panel"},
         {'label':"Action Panel",'':"Dropdown1", 'submenu':[{'label':"Create a Certificate"},{'id':'subid12', 'label':"monitor existing certificates"},{'id':'subid13', 'label':"contact partner(s)"}]},
