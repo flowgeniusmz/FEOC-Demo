@@ -6,12 +6,12 @@ import hydralit_components as hc
 from Central_Performance_Panel import display_Central_Performance_Panel
 
 img= Image.open('.localdata/FG-Logo-612x312px.png')
-
+st.set_page_config(layout='wide', page_title="Faulkner Emission Offset Certificate Program", icon="img")
+    "---"
 if 'authenticated' not in st.session_state:
     get_loginform()
 else:
-    st.set_page_config(layout='wide', page_title="Faulkner Emission Offset Certificate Program", icon="./img.png")
-    "---"
+    
 # specify the primary menu definition
     menu_data = [
         {'label':"Performance Panel"},
