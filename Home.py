@@ -25,8 +25,8 @@ else:
         login_name='Logout',
         hide_streamlit_markers=False, #will show the st hamburger as well as the navbar now!
         sticky_nav=True, #at the top or not
-        sticky_mode='sticky', 'jumpy', #jumpy or not-jumpy, but sticky or pinned
-    )
+        sticky_mode='sticky', 'jumpy', #jumpy or not-jumpy, but sticky or pinned)
+        
 #menu items:
     if menu_id== 'General Performance':
         display_Central_Performance_Panel()
