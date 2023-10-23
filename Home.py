@@ -5,7 +5,7 @@ import hydralit_components as hc
 from Central_Performance_Panel import display_Central_Performance_Panel
 
 #img= Image.open('.localdata/FG-Logo-612x312px.png')
-#st.set_page_config(page_title='FEOC FG', page_icon=img)
+st.set_page_config(page_title='FEOC FG')
 if 'authenticated' not in st.session_state:
     get_loginform()
 else:
