@@ -15,25 +15,25 @@ def display_Analytics_panel():
     with col03:
         st.metric("Project Financing", "$5,000,000", "-$500,000")
 
-    # # Financial Analytics
-    # st.header("Financial Analytics")
-    # col11, col12, col13 = st.columns(3)
-    # with col11:
-    #     st.subheader("Carbon Offset Revenue")
-    #     chart_data11 = pd.DataFrame({
-    #         'Months': list(range(1, 13)),
-    #         'Revenue': np.random.randint(100000, 150000, 12)
-    #     })
-    #     st.line_chart(chart_data11.set_index('Months'))
+    # Financial Analytics
+    st.header("Financial Analytics")
+    col11, col12, col13 = st.columns(3)
+    with col11:
+        st.subheader("Carbon Offset Revenue")
+        chart_data11 = pd.DataFrame({
+            'Months': list(range(1, 13)),
+            'Revenue': np.random.randint(100000, 150000, 12)
+        })
+        st.line_chart(chart_data11.set_index('Months'))
 
-    # with col12:
-    #     st.subheader("Carbon Reduction vs Commitment")
-    #     chart_data12 = pd.DataFrame({
-    #         'Months': list(range(1, 13)),
-    #         'Actual Reduction': np.random.randint(100000, 130000, 12),
-    #         'Committed Reduction': [125000] * 12
-    #     })
-    #     st.line_chart(chart_data12.set_index('Months')
+    with col12:
+        st.subheader("Carbon Reduction vs Commitment")
+        chart_data12 = pd.DataFrame({
+            'Months': list(range(1, 13)),
+            'Actual Reduction': np.random.randint(100000, 130000, 12),
+            'Committed Reduction': [125000] * 12
+        })
+        st.line_chart(chart_data12.set_index('Months')
 
     # with col13:
     #     st.subheader("Monthly Financing vs Returns")
