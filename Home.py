@@ -6,37 +6,35 @@ from Central_Performance_Panel import display_Central_Performance_Panel
 
 #img= Image.open('.localdata/FG-Logo-612x312px.png')
 #st.set_page_config(page_title='FEOC FG', page_icon=img)
-
-#make it look nice from the start
-#st.set_page_config(layout='wide',initial_sidebar_state='collapsed',)
-# specify the primary menu definition
-menu_data = [
-    {'label':"Left End"},
-    {'label':"Performance Panel",'':"Dropdown1", 'submenu':[{'label':"General Performance "},{'id':'subid12', 'label':"individualized Performance"}]},
-    {'label':"Action Panel",'':"Dropdown1", 'submenu':[{'label':"Create a Certificate"},{'id':'subid12', 'label':"monitor existing certificates"},{'id':'subid13', 'label':"contact partner(s)"}]},
-    {'label':"Analytics Panel"},
-]
-    
-over_theme = {'txc_inactive': '#FFFFFF'}
-menu_id = hc.nav_bar(
-    menu_definition=menu_data,
-    override_theme=over_theme,
-    home_name='Home',
-    login_name='Logout',
-    hide_streamlit_markers=False, #will show the st hamburger as well as the navbar now!
-    sticky_nav=True, #at the top or not
-    sticky_mode='pinned', #jumpy or not-jumpy, but sticky or pinned
-)
-    
-
 if 'authenticated' not in st.session_state:
     get_loginform()
 else:
- 
-    
-    
-    if menu_id== 'Central Performance Panel':
+#make it look nice from the start
+#st.set_page_config(layout='wide',initial_sidebar_state='collapsed',)
+# specify the primary menu definition
+    menu_data = [
+        {'label':"Performance Panel"},
+        {'label':"Action Panel",'':"Dropdown1", 'submenu':[{'label':"Create a Certificate"},{'id':'subid12', 'label':"monitor existing certificates"},{'id':'subid13', 'label':"contact partner(s)"}]},
+        {'label':"Analytics Panel"},
+    ]   
+    over_theme = {'txc_inactive': '#FFFFFF'}
+    menu_id = hc.nav_bar(
+        menu_definition=menu_data,
+        override_theme=over_theme,
+        home_name='Home',
+        login_name='Logout',
+        hide_streamlit_markers=False, #will show the st hamburger as well as the navbar now!
+        sticky_nav=True, #at the top or not
+        sticky_mode='sticky', 'jumpy', #jumpy or not-jumpy, but sticky or pinned
+    )
+#menu items:
+    if menu_id== 'General Performance':
         display_Central_Performance_Panel()
+
+    if menu_id== 'Action Panel':
+        display_Central_Performance_Panel()
+
+    if
     
     set_title("Faulkner Emission Offset Certificate Program", "Home")
     st.divider()
