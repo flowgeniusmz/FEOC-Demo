@@ -40,6 +40,7 @@ else:
 
     if menu_id== 'Analytics Panel':
         display_analytics_panel()
+        
     if menu_id== 'Home':
         st.header("Welcome")
         # Main content
