@@ -9,7 +9,7 @@ from Central_Performance_Panel import display_Central_Performance_Panel
 if 'authenticated' not in st.session_state:
     get_loginform()
 else:
-    set_title("Faulkner Emission Offset Certificate Program")
+    st.set_page_config(page_title="Faulkner Emission Offset Certificate Program")
     "---"
 #make it look nice from the start
 #st.set_page_config(layout='wide',initial_sidebar_state='collapsed',)
