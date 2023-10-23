@@ -30,8 +30,8 @@ else:
         sticky_mode='sticky', 'jumpy', #jumpy or not-jumpy, but sticky or pinned)
         
 
-    if menu_id== 'General Performance':
-        display_Central_Performance_Panel()
+    #if menu_id== 'General Performance':
+        #display_Central_Performance_Panel()
 
     if menu_id== 'Action Panel':
         display_Central_Performance_Panel()
