@@ -1,4 +1,5 @@
 import streamlit as st
+from PIL import Image
 from login import get_loginform
 from pagesetup import set_title
 import hydralit_components as hc
