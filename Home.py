@@ -22,7 +22,7 @@ else:
         override_theme=over_theme,
         home_name='Home',
         login_name='Logout',
-        hide_streamlit_markers=False,
+        hide_streamlit_markers=True,
         sticky_nav=True,
         sticky_mode='sticky',  # 'jumpy' or 'not-jumpy', but sticky or pinned
 )
