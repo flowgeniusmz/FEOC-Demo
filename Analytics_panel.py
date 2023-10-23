@@ -35,20 +35,20 @@ def display_Analytics_panel():
     #     })
     #     st.line_chart(chart_data12.set_index('Months')
 
-    with col13:
-        st.subheader("Monthly Financing vs Returns")
-        chart_data13 = pd.DataFrame({
-            'Months': list(range(1, 13)),
-            'Financing': np.random.randint(300000, 500000, 12),
-            'Returns': np.random.randint(250000, 450000, 12)
-        })
-        st.bar_chart(chart_data13.set_index('Months'))
+    # with col13:
+    #     st.subheader("Monthly Financing vs Returns")
+    #     chart_data13 = pd.DataFrame({
+    #         'Months': list(range(1, 13)),
+    #         'Financing': np.random.randint(300000, 500000, 12),
+    #         'Returns': np.random.randint(250000, 450000, 12)
+    #     })
+    #     st.bar_chart(chart_data13.set_index('Months'))
 
-    # Live Sensor Data
-    # st.header("Live Sensor Data Details")
-    # st.write("In our environmental monitoring project, data was collected by ...")
-    # places = pd.read_csv('.localdata/refinery_sensor_data_test_extended_values.csv')
-    # st.map(places)
+    Live Sensor Data
+    st.header("Live Sensor Data Details")
+    st.write("In our environmental monitoring project, data was collected by ...")
+    places = pd.read_csv('.localdata/refinery_sensor_data_test_extended_values.csv')
+    st.map(places)
 
     # # Operational Analytics
     # st.header("Operational Analytics")
