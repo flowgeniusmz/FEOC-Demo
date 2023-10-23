@@ -3,7 +3,7 @@ import streamlit as st
 def display_Central_Performance_Panel():
   from pagesetup import set_title
   
-  st.set_page_config(layout="wide")
+ 
   set_title("FEOC", "Central Performance Panel")
   st.divider()
   st.progress(.5, "Total Emissions Reduced")
