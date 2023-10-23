@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-def display_analytics_panel():
+def display_Analytics_panel():
     st.title("FEOC Analytics Panel")
 
 #     # Key Metrics
