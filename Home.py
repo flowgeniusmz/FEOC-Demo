@@ -6,7 +6,7 @@ import hydralit_components as hc
 from Central_Performance_Panel import display_Central_Performance_Panel
 
 st.set_page_config(layout='wide', page_title="Faulkner Emission Offset Certificate Program")
-"---"
+
 if 'authenticated' not in st.session_state:
     get_loginform()
 else:
@@ -15,7 +15,7 @@ else:
         {'label':"Action Panel",'':"Dropdown1", 'submenu':[{'label':"Create a Certificate"},{'id':'subid12', 'label':"monitor existing certificates"},{'id':'subid13', 'label':"contact partner(s)"}]},
         {'label':"Analytics Panel"},
     ]   
-    over_theme = {'txc_active': '#FFFFFF'}
+    over_theme = {'txc_inactive': '#FFFFFF'}
     menu_id = hc.nav_bar(
         menu_definition=menu_data,
         override_theme=over_theme,
@@ -40,11 +40,7 @@ else:
 
     if menu_id== 'Analytics Panel':
         display_analytics_panel()
-    
-    # main_container = st.container()
-    # with main_container:
-    #     exp1 = st.expander("Overview", expanded=True)
-    #     with exp1:
+
 st.header("Welcome")
 # Main content
 st.write("Welcome to the Emission Solutions Web App!")
