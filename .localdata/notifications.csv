@@ -1,0 +1,151 @@
+id,created_at,title,content,type,emitter,provider,purchaser
+1,5/18/2023 4:13,Emission Report Due,Your monthly emission report is due in 3 days.,warning,TRUE,FALSE,FALSE
+2,9/13/2023 4:13,New Solution Available,A new green solution has been added to the marketplace.,info,TRUE,TRUE,TRUE
+3,12/16/2022 4:13,Payment Failed,Your payment for the green energy solution has failed. Please update your payment method.,error,FALSE,TRUE,TRUE
+4,9/6/2023 4:13,New Certification Acquired,A green solution you use has acquired a new certification.,info,TRUE,TRUE,FALSE
+5,1/23/2023 4:13,Emission Reduction Target Missed,"Unfortunately, you did not meet the emission reduction target for this month.",warning,TRUE,FALSE,FALSE
+6,9/11/2023 4:13,Payment Received,Your payment for the green energy solution has been received.,info,FALSE,TRUE,TRUE
+7,8/27/2023 4:13,Emission Report Due,Your monthly emission report is due in 3 days.,warning,TRUE,FALSE,FALSE
+8,3/22/2023 4:13,Emission Report Due,Your monthly emission report is due in 3 days.,warning,TRUE,FALSE,FALSE
+9,6/15/2023 4:13,Emission Reduction Target Met,Congratulations! Your emission reduction target for this month has been achieved.,info,TRUE,FALSE,TRUE
+10,12/6/2022 4:13,Payment Failed,Your payment for the green energy solution has failed. Please update your payment method.,error,FALSE,TRUE,TRUE
+11,8/4/2023 4:13,Payment Received,Your payment for the green energy solution has been received.,info,FALSE,TRUE,TRUE
+12,6/22/2023 4:13,Emission Report Received,Your emission report for the month has been successfully received.,info,TRUE,FALSE,FALSE
+13,4/16/2023 4:13,Payment Received,Your payment for the green energy solution has been received.,info,FALSE,TRUE,TRUE
+14,11/1/2022 4:13,Payment Failed,Your payment for the green energy solution has failed. Please update your payment method.,error,FALSE,TRUE,TRUE
+15,11/20/2022 4:13,New Solution Available,A new green solution has been added to the marketplace.,info,TRUE,TRUE,TRUE
+16,11/20/2022 4:13,Emission Report Received,Your emission report for the month has been successfully received.,info,TRUE,FALSE,FALSE
+17,10/24/2022 4:13,Emission Reduction Target Missed,"Unfortunately, you did not meet the emission reduction target for this month.",warning,TRUE,FALSE,FALSE
+18,11/1/2022 4:13,New Solution Available,A new green solution has been added to the marketplace.,info,TRUE,TRUE,TRUE
+19,4/25/2023 4:13,New Solution Available,A new green solution has been added to the marketplace.,info,TRUE,TRUE,TRUE
+20,3/31/2023 4:13,New Solution Available,A new green solution has been added to the marketplace.,info,TRUE,TRUE,TRUE
+21,3/1/2023 4:13,Emission Report Due,Your monthly emission report is due in 3 days.,warning,TRUE,FALSE,FALSE
+22,1/1/2023 4:13,Emission Report Received,Your emission report for the month has been successfully received.,info,TRUE,FALSE,FALSE
+23,11/13/2022 4:13,Emission Reduction Target Missed,"Unfortunately, you did not meet the emission reduction target for this month.",warning,TRUE,FALSE,FALSE
+24,9/16/2023 4:13,Emission Report Received,Your emission report for the month has been successfully received.,info,TRUE,FALSE,FALSE
+25,2/8/2023 4:13,Payment Failed,Your payment for the green energy solution has failed. Please update your payment method.,error,FALSE,TRUE,TRUE
+26,1/17/2023 4:13,New Certification Acquired,A green solution you use has acquired a new certification.,info,TRUE,TRUE,FALSE
+27,1/19/2023 4:13,Emission Report Received,Your emission report for the month has been successfully received.,info,TRUE,FALSE,FALSE
+28,7/27/2023 4:13,Solution Certification Expired,A green solution you use has an expired certification. Please review.,error,TRUE,TRUE,FALSE
+29,10/29/2022 4:13,Emission Reduction Target Met,Congratulations! Your emission reduction target for this month has been achieved.,info,TRUE,FALSE,TRUE
+30,9/25/2023 4:13,Solution Certification Expired,A green solution you use has an expired certification. Please review.,error,TRUE,TRUE,FALSE
+31,10/23/2023 0:00,Solution Updated,A green solution you use has been updated. Please review the changes.,info,TRUE,TRUE,FALSE
+32,10/23/2023 0:00,Emission Report Received,Your emission report for the month has been successfully received.,info,TRUE,FALSE,FALSE
+33,10/23/2023 0:00,Payment Received,Your payment for the green energy solution has been received.,info,FALSE,TRUE,TRUE
+34,10/23/2023 0:00,Payment Failed,Your payment for the green energy solution has failed. Please update your payment method.,error,FALSE,TRUE,TRUE
+35,10/23/2023 0:00,Solution Certification Expired,A green solution you use has an expired certification. Please review.,error,TRUE,TRUE,FALSE
+36,10/23/2023 0:00,New Solution Available,A new green solution has been added to the marketplace.,info,TRUE,TRUE,TRUE
+37,10/23/2023 0:00,Emission Report Received,Your emission report for the month has been successfully received.,info,TRUE,FALSE,FALSE
+38,10/23/2023 0:00,Emission Reduction Target Missed,"Unfortunately, you did not meet the emission reduction target for this month.",warning,TRUE,FALSE,FALSE
+39,10/23/2023 0:00,New Certification Acquired,A green solution you use has acquired a new certification.,info,TRUE,TRUE,FALSE
+40,10/23/2023 0:00,Solution Certification Expired,A green solution you use has an expired certification. Please review.,error,TRUE,TRUE,FALSE
+41,10/23/2023 0:00,Solution Certification Expired,A green solution you use has an expired certification. Please review.,error,TRUE,TRUE,FALSE
+42,10/23/2023 0:00,Emission Report Due,Your monthly emission report is due in 3 days.,warning,TRUE,FALSE,FALSE
+43,10/23/2023 0:00,Emission Reduction Target Met,Congratulations! Your emission reduction target for this month has been achieved.,info,TRUE,FALSE,TRUE
+44,10/23/2023 0:00,Emission Reduction Target Met,Congratulations! Your emission reduction target for this month has been achieved.,info,TRUE,FALSE,TRUE
+45,10/23/2023 0:00,Emission Report Due,Your monthly emission report is due in 3 days.,warning,TRUE,FALSE,FALSE
+46,10/23/2023 0:00,Solution Updated,A green solution you use has been updated. Please review the changes.,info,TRUE,TRUE,FALSE
+47,10/23/2023 0:00,New Solution Available,A new green solution has been added to the marketplace.,info,TRUE,TRUE,TRUE
+48,10/23/2023 0:00,Solution Certification Expired,A green solution you use has an expired certification. Please review.,error,TRUE,TRUE,FALSE
+49,10/23/2023 0:00,Solution Updated,A green solution you use has been updated. Please review the changes.,info,TRUE,TRUE,FALSE
+50,10/23/2023 0:00,Emission Report Due,Your monthly emission report is due in 3 days.,warning,TRUE,FALSE,FALSE
+51,10/23/2023 0:00,Emission Reduction Target Met,Congratulations! Your emission reduction target for this month has been achieved.,info,TRUE,FALSE,TRUE
+52,10/23/2023 0:00,Emission Report Due,Your monthly emission report is due in 3 days.,warning,TRUE,FALSE,FALSE
+53,10/23/2023 0:00,Emission Report Due,Your monthly emission report is due in 3 days.,warning,TRUE,FALSE,FALSE
+54,10/23/2023 0:00,Solution Updated,A green solution you use has been updated. Please review the changes.,info,TRUE,TRUE,FALSE
+55,10/23/2023 0:00,Solution Certification Expired,A green solution you use has an expired certification. Please review.,error,TRUE,TRUE,FALSE
+56,10/23/2023 0:00,Emission Report Due,Your monthly emission report is due in 3 days.,warning,TRUE,FALSE,FALSE
+57,10/23/2023 0:00,Solution Certification Expired,A green solution you use has an expired certification. Please review.,error,TRUE,TRUE,FALSE
+58,10/23/2023 0:00,New Certification Acquired,A green solution you use has acquired a new certification.,info,TRUE,TRUE,FALSE
+59,10/23/2023 0:00,Emission Reduction Target Missed,"Unfortunately, you did not meet the emission reduction target for this month.",warning,TRUE,FALSE,FALSE
+60,10/23/2023 0:00,Emission Reduction Target Missed,"Unfortunately, you did not meet the emission reduction target for this month.",warning,TRUE,FALSE,FALSE
+61,10/24/2023 0:00,Emission Report Due,Your monthly emission report is due in 3 days.,warning,TRUE,FALSE,FALSE
+62,10/24/2023 0:00,Solution Updated,A green solution you use has been updated. Please review the changes.,info,TRUE,TRUE,FALSE
+63,10/24/2023 0:00,Payment Failed,Your payment for the green energy solution has failed. Please update your payment method.,error,FALSE,TRUE,TRUE
+64,10/24/2023 0:00,Emission Reduction Target Missed,"Unfortunately, you did not meet the emission reduction target for this month.",warning,TRUE,FALSE,FALSE
+65,10/24/2023 0:00,Payment Received,Your payment for the green energy solution has been received.,info,FALSE,TRUE,TRUE
+66,10/24/2023 0:00,Emission Reduction Target Missed,"Unfortunately, you did not meet the emission reduction target for this month.",warning,TRUE,FALSE,FALSE
+67,10/24/2023 0:00,Emission Reduction Target Met,Congratulations! Your emission reduction target for this month has been achieved.,info,TRUE,FALSE,TRUE
+68,10/24/2023 0:00,Emission Report Due,Your monthly emission report is due in 3 days.,warning,TRUE,FALSE,FALSE
+69,10/24/2023 0:00,Payment Received,Your payment for the green energy solution has been received.,info,FALSE,TRUE,TRUE
+70,10/24/2023 0:00,Solution Certification Expired,A green solution you use has an expired certification. Please review.,error,TRUE,TRUE,FALSE
+71,10/24/2023 0:00,Emission Reduction Target Missed,"Unfortunately, you did not meet the emission reduction target for this month.",warning,TRUE,FALSE,FALSE
+72,10/24/2023 0:00,Solution Certification Expired,A green solution you use has an expired certification. Please review.,error,TRUE,TRUE,FALSE
+73,10/24/2023 0:00,Solution Certification Expired,A green solution you use has an expired certification. Please review.,error,TRUE,TRUE,FALSE
+74,10/24/2023 0:00,Emission Reduction Target Missed,"Unfortunately, you did not meet the emission reduction target for this month.",warning,TRUE,FALSE,FALSE
+75,10/24/2023 0:00,Emission Report Received,Your emission report for the month has been successfully received.,info,TRUE,FALSE,FALSE
+76,10/24/2023 0:00,New Solution Available,A new green solution has been added to the marketplace.,info,TRUE,TRUE,TRUE
+77,10/24/2023 0:00,Payment Failed,Your payment for the green energy solution has failed. Please update your payment method.,error,FALSE,TRUE,TRUE
+78,10/24/2023 0:00,Emission Report Received,Your emission report for the month has been successfully received.,info,TRUE,FALSE,FALSE
+79,10/24/2023 0:00,Emission Reduction Target Missed,"Unfortunately, you did not meet the emission reduction target for this month.",warning,TRUE,FALSE,FALSE
+80,10/24/2023 0:00,Emission Report Due,Your monthly emission report is due in 3 days.,warning,TRUE,FALSE,FALSE
+81,10/24/2023 0:00,Solution Certification Expired,A green solution you use has an expired certification. Please review.,error,TRUE,TRUE,FALSE
+82,10/24/2023 0:00,Emission Reduction Target Met,Congratulations! Your emission reduction target for this month has been achieved.,info,TRUE,FALSE,TRUE
+83,10/24/2023 0:00,New Solution Available,A new green solution has been added to the marketplace.,info,TRUE,TRUE,TRUE
+84,10/24/2023 0:00,Emission Reduction Target Missed,"Unfortunately, you did not meet the emission reduction target for this month.",warning,TRUE,FALSE,FALSE
+85,10/24/2023 0:00,Solution Updated,A green solution you use has been updated. Please review the changes.,info,TRUE,TRUE,FALSE
+86,10/24/2023 0:00,Payment Failed,Your payment for the green energy solution has failed. Please update your payment method.,error,FALSE,TRUE,TRUE
+87,10/24/2023 0:00,Emission Report Due,Your monthly emission report is due in 3 days.,warning,TRUE,FALSE,FALSE
+88,10/24/2023 0:00,Payment Received,Your payment for the green energy solution has been received.,info,FALSE,TRUE,TRUE
+89,10/24/2023 0:00,Emission Reduction Target Met,Congratulations! Your emission reduction target for this month has been achieved.,info,TRUE,FALSE,TRUE
+90,10/24/2023 0:00,Payment Received,Your payment for the green energy solution has been received.,info,FALSE,TRUE,TRUE
+91,10/25/2023 0:00,Emission Report Due,Your monthly emission report is due in 3 days.,warning,TRUE,FALSE,FALSE
+92,10/25/2023 0:00,Solution Certification Expired,A green solution you use has an expired certification. Please review.,error,TRUE,TRUE,FALSE
+93,10/25/2023 0:00,Solution Certification Expired,A green solution you use has an expired certification. Please review.,error,TRUE,TRUE,FALSE
+94,10/25/2023 0:00,Emission Report Due,Your monthly emission report is due in 3 days.,warning,TRUE,FALSE,FALSE
+95,10/25/2023 0:00,New Certification Acquired,A green solution you use has acquired a new certification.,info,TRUE,TRUE,FALSE
+96,10/25/2023 0:00,Emission Reduction Target Missed,"Unfortunately, you did not meet the emission reduction target for this month.",warning,TRUE,FALSE,FALSE
+97,10/25/2023 0:00,Emission Report Received,Your emission report for the month has been successfully received.,info,TRUE,FALSE,FALSE
+98,10/25/2023 0:00,New Certification Acquired,A green solution you use has acquired a new certification.,info,TRUE,TRUE,FALSE
+99,10/25/2023 0:00,Solution Updated,A green solution you use has been updated. Please review the changes.,info,TRUE,TRUE,FALSE
+100,10/25/2023 0:00,Payment Failed,Your payment for the green energy solution has failed. Please update your payment method.,error,FALSE,TRUE,TRUE
+101,10/25/2023 0:00,Solution Updated,A green solution you use has been updated. Please review the changes.,info,TRUE,TRUE,FALSE
+102,10/25/2023 0:00,Emission Reduction Target Met,Congratulations! Your emission reduction target for this month has been achieved.,info,TRUE,FALSE,TRUE
+103,10/25/2023 0:00,Payment Received,Your payment for the green energy solution has been received.,info,FALSE,TRUE,TRUE
+104,10/25/2023 0:00,Payment Failed,Your payment for the green energy solution has failed. Please update your payment method.,error,FALSE,TRUE,TRUE
+105,10/25/2023 0:00,New Certification Acquired,A green solution you use has acquired a new certification.,info,TRUE,TRUE,FALSE
+106,10/25/2023 0:00,Emission Report Due,Your monthly emission report is due in 3 days.,warning,TRUE,FALSE,FALSE
+107,10/25/2023 0:00,New Certification Acquired,A green solution you use has acquired a new certification.,info,TRUE,TRUE,FALSE
+108,10/25/2023 0:00,New Certification Acquired,A green solution you use has acquired a new certification.,info,TRUE,TRUE,FALSE
+109,10/25/2023 0:00,Payment Failed,Your payment for the green energy solution has failed. Please update your payment method.,error,FALSE,TRUE,TRUE
+110,10/25/2023 0:00,Payment Failed,Your payment for the green energy solution has failed. Please update your payment method.,error,FALSE,TRUE,TRUE
+111,10/25/2023 0:00,New Certification Acquired,A green solution you use has acquired a new certification.,info,TRUE,TRUE,FALSE
+112,10/25/2023 0:00,New Certification Acquired,A green solution you use has acquired a new certification.,info,TRUE,TRUE,FALSE
+113,10/25/2023 0:00,Emission Report Due,Your monthly emission report is due in 3 days.,warning,TRUE,FALSE,FALSE
+114,10/25/2023 0:00,New Solution Available,A new green solution has been added to the marketplace.,info,TRUE,TRUE,TRUE
+115,10/25/2023 0:00,Solution Updated,A green solution you use has been updated. Please review the changes.,info,TRUE,TRUE,FALSE
+116,10/25/2023 0:00,Emission Reduction Target Missed,"Unfortunately, you did not meet the emission reduction target for this month.",warning,TRUE,FALSE,FALSE
+117,10/25/2023 0:00,Emission Report Received,Your emission report for the month has been successfully received.,info,TRUE,FALSE,FALSE
+118,10/25/2023 0:00,Solution Certification Expired,A green solution you use has an expired certification. Please review.,error,TRUE,TRUE,FALSE
+119,10/25/2023 0:00,New Solution Available,A new green solution has been added to the marketplace.,info,TRUE,TRUE,TRUE
+120,10/25/2023 0:00,New Certification Acquired,A green solution you use has acquired a new certification.,info,TRUE,TRUE,FALSE
+121,10/26/2023 0:00,Emission Report Due,Your monthly emission report is due in 3 days.,warning,TRUE,FALSE,FALSE
+122,10/26/2023 0:00,Solution Certification Expired,A green solution you use has an expired certification. Please review.,error,TRUE,TRUE,FALSE
+123,10/26/2023 0:00,Solution Updated,A green solution you use has been updated. Please review the changes.,info,TRUE,TRUE,FALSE
+124,10/26/2023 0:00,Emission Reduction Target Missed,"Unfortunately, you did not meet the emission reduction target for this month.",warning,TRUE,FALSE,FALSE
+125,10/26/2023 0:00,Emission Report Due,Your monthly emission report is due in 3 days.,warning,TRUE,FALSE,FALSE
+126,10/26/2023 0:00,New Solution Available,A new green solution has been added to the marketplace.,info,TRUE,TRUE,TRUE
+127,10/26/2023 0:00,Solution Updated,A green solution you use has been updated. Please review the changes.,info,TRUE,TRUE,FALSE
+128,10/26/2023 0:00,Emission Report Due,Your monthly emission report is due in 3 days.,warning,TRUE,FALSE,FALSE
+129,10/26/2023 0:00,Emission Reduction Target Missed,"Unfortunately, you did not meet the emission reduction target for this month.",warning,TRUE,FALSE,FALSE
+130,10/26/2023 0:00,Solution Certification Expired,A green solution you use has an expired certification. Please review.,error,TRUE,TRUE,FALSE
+131,10/26/2023 0:00,Emission Report Received,Your emission report for the month has been successfully received.,info,TRUE,FALSE,FALSE
+132,10/26/2023 0:00,Emission Reduction Target Missed,"Unfortunately, you did not meet the emission reduction target for this month.",warning,TRUE,FALSE,FALSE
+133,10/26/2023 0:00,Emission Report Received,Your emission report for the month has been successfully received.,info,TRUE,FALSE,FALSE
+134,10/26/2023 0:00,Payment Received,Your payment for the green energy solution has been received.,info,FALSE,TRUE,TRUE
+135,10/26/2023 0:00,Payment Failed,Your payment for the green energy solution has failed. Please update your payment method.,error,FALSE,TRUE,TRUE
+136,10/26/2023 0:00,Emission Report Received,Your emission report for the month has been successfully received.,info,TRUE,FALSE,FALSE
+137,10/26/2023 0:00,Emission Reduction Target Missed,"Unfortunately, you did not meet the emission reduction target for this month.",warning,TRUE,FALSE,FALSE
+138,10/26/2023 0:00,New Certification Acquired,A green solution you use has acquired a new certification.,info,TRUE,TRUE,FALSE
+139,10/26/2023 0:00,New Certification Acquired,A green solution you use has acquired a new certification.,info,TRUE,TRUE,FALSE
+140,10/26/2023 0:00,Emission Reduction Target Missed,"Unfortunately, you did not meet the emission reduction target for this month.",warning,TRUE,FALSE,FALSE
+141,10/26/2023 0:00,Solution Updated,A green solution you use has been updated. Please review the changes.,info,TRUE,TRUE,FALSE
+142,10/26/2023 0:00,Emission Reduction Target Met,Congratulations! Your emission reduction target for this month has been achieved.,info,TRUE,FALSE,TRUE
+143,10/26/2023 0:00,Payment Received,Your payment for the green energy solution has been received.,info,FALSE,TRUE,TRUE
+144,10/26/2023 0:00,New Certification Acquired,A green solution you use has acquired a new certification.,info,TRUE,TRUE,FALSE
+145,10/26/2023 0:00,New Solution Available,A new green solution has been added to the marketplace.,info,TRUE,TRUE,TRUE
+146,10/26/2023 0:00,Emission Reduction Target Met,Congratulations! Your emission reduction target for this month has been achieved.,info,TRUE,FALSE,TRUE
+147,10/26/2023 0:00,Emission Reduction Target Met,Congratulations! Your emission reduction target for this month has been achieved.,info,TRUE,FALSE,TRUE
+148,10/26/2023 0:00,Emission Report Due,Your monthly emission report is due in 3 days.,warning,TRUE,FALSE,FALSE
+149,10/26/2023 0:00,Emission Report Received,Your emission report for the month has been successfully received.,info,TRUE,FALSE,FALSE
+150,10/26/2023 0:00,Emission Reduction Target Met,Congratulations! Your emission reduction target for this month has been achieved.,info,TRUE,FALSE,TRUE

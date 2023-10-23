@@ -1,0 +1,34 @@
+id,created_at,event_type,actor_type,certificate,emission_commitment,notes
+1,1/1/2023 9:00,Certificate Issued,System,Cert001,500,Certificate issued after validation
+2,1/1/2023 9:05,User Login,User01,-,,Successful login from IP: 192.168.1.10
+3,1/5/2023 14:30,Performance Update,Company A,Cert001,480,Quarterly assessment
+4,1/5/2023 15:00,User Logout,User01,-,,User session ended
+5,1/10/2023 10:15,Commitment Made,Company B,Cert002,350,New commitment logged
+6,1/10/2023 10:20,System Backup,System,-,,Backup completed successfully
+7,1/15/2023 11:20,Verification Check,Company A,Cert001,480,Verified by external agency
+8,1/15/2023 12:00,User Password Change,User02,-,,Password updated successfully
+9,1/20/2023 9:30,Certificate Issued,System,Cert003,600,Certificate issued after validation
+10,1/20/2023 9:35,System Error,System,-,,Failed to update database record
+11,12/10/2023 16:50,User Login Failed,User03,-,,Failed login attempt from IP: 192.168.2.15
+12,12/15/2023 15:45,Verification Check,Company X,Cert089,410,Verified by external agency
+13,12/18/2023 14:00,User Role Updated,Admin01,-,,"User01 role updated to ""Verifier"""
+14,12/20/2023 10:30,Performance Update,Company Y,Cert090,320,Quarterly assessment
+15,12/21/2023 13:00,System Maintenance,System,-,,System down for 2 hours for maintenance
+16,12/22/2023 13:40,Commitment Made,Company X,Cert089,420,New commitment logged
+17,12/23/2023 8:00,System Restart,System,-,,Routine system restart
+18,12/24/2023 12:45,User Account Locked,User03,-,,Account locked due to multiple failed login attempts
+19,12/25/2023 9:30,Certificate Issued,System,Cert092,530,Certificate issued after validation
+20,12/25/2023 12:00,User Logout,User02,-,,User session ended
+21,12/26/2023 8:00,User Login,User01,-,,Successful login from IP: 192.168.1.12
+22,12/26/2023 8:10,User Role Updated,Admin01,-,,"User01 role updated to ""Auditor"""
+23,12/27/2023 9:15,Certificate Issued,System,Cert093,540,Certificate issued after validation
+24,12/27/2023 10:30,System Backup,System,-,,Backup completed successfully
+25,12/28/2023 11:00,Performance Update,Company Z,Cert092,520,Quarterly assessment
+26,12/28/2023 12:00,System Error,System,-,,Failed to connect to remote server
+27,12/29/2023 14:15,Commitment Made,Company W,Cert094,430,New commitment logged
+28,12/29/2023 14:20,User Login Failed,User04,-,,Failed login attempt from IP: 192.168.2.18
+29,12/30/2023 9:00,User Password Change,User03,-,,Password updated successfully
+30,12/30/2023 9:30,Certificate Issued,System,Cert095,460,Certificate issued after validation
+31,12/31/2023 10:00,System Maintenance,System,-,,System down for 1 hour for maintenance
+32,12/31/2023 11:30,User Logout,User02,-,,User session ended
+33,1/1/2024 9:00,New Year System Check,System,-,,Routine system check for New
