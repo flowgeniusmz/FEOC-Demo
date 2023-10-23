@@ -9,6 +9,8 @@ from Central_Performance_Panel import display_Central_Performance_Panel
 if 'authenticated' not in st.session_state:
     get_loginform()
 else:
+    set_title("Faulkner Emission Offset Certificate Program")
+    "---"
 #make it look nice from the start
 #st.set_page_config(layout='wide',initial_sidebar_state='collapsed',)
 # specify the primary menu definition
@@ -33,11 +35,8 @@ else:
 
     if menu_id== 'Action Panel':
         display_Central_Performance_Panel()
-
-    if
     
-    set_title("Faulkner Emission Offset Certificate Program", "Home")
-    st.divider()
+    
     main_container = st.container()
     with main_container:
         exp1 = st.expander("Overview", expanded=True)
