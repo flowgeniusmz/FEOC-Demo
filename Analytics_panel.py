@@ -1,6 +1,6 @@
 import streamlit as st
 
-def display_Analytics_Panel():
+def display_analytics_panel():
   import pandas as pd
   import numpy as np
   from charts.heatmap import render_heatmap_cartesian
