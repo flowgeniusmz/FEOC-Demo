@@ -5,8 +5,6 @@ def display_analytics_panel():
   import numpy as np
   from charts.heatmap import render_heatmap_cartesian
   
-  
-  st.set_page_config(layout="wide")
   set_title("FEOC", "Analytics Panel")
   st.divider()
   
