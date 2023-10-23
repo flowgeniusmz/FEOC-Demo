@@ -38,26 +38,43 @@ def display_Central_Performance_Panel():
   **Alert 3:** 10/24/2023 New Purchaser Added - PanAm Airlines  
   **Alert 4:** 10/31/2023 Compliance Meeting Scheduled """,
                   disabled=True)
-          
+# Define your dynamic variables
+operational_profits = 400000
+total_net_zero_fuel_sold = 1000000
+total_net_zero_tickets_sold = 10000000
+current_oc_value = 2504543232
+
+annual_offset_committed = 400000
+annual_offset_actual = 300000
+annual_offset_variance = annual_offset_committed - annual_offset_actual
+
+validation_date = "9/21/2023"
+validation_message = "Please check data compliance"
+success_date = "9/20/2023"
+success_message = "Data validation successfully completed; no errors"
+info_date = "9/15/2023"
+info_message = "Forward-selling activity initiated (100,000 tons fuel)"          
   
   next_container = st.container()
   with next_container:
       exp2 = st.expander("Performance", expanded=True)
       with exp2:
           col21, col22, col23 = st.columns(3)
-          with col21:
-              st.markdown("#### Financial")
-              st.markdown("**Operational Profits of Provider:** 400,000 metric tons CO₂e")
-              st.markdown("**Total Net-Zero Fuel Sold:** 1,000,000 metric tons")
-              st.markdown("**Total Net-Zero Tickets Sold:** 10,000,000 tickets")
-              st.markdown("**Current OC Value:** $2,504,543,232")
-          with col22: 
-              st.markdown("#### Carbon Reduction")
-              st.markdown("**Annual Offset (Committed):** 400,000 metric tons CO₂e")
-              st.markdown("**Annual Offset (Actual):** 300,000 metric tons CO₂e")
-              st.markdown("**Annual Offset (Variance):** 100,000 (25.00%) metric tons CO₂e")
-          with col23:
-              st.markdown("#### Validation and Verification")
-              st.warning("9/21/2023: Please check data compliance")
-              st.success("9/20/2023: Data validation successfully completed; no errors")
-              st.info("9/15/2023: Forward-selling activity initiated (100,000 tons fuel)")
+        with col21:
+            st.markdown("#### Financial")
+            st.markdown(f"**Operational Profits of Provider:** {operational_profits} metric tons CO₂e")
+            st.markdown(f"**Total Net-Zero Fuel Sold:** {total_net_zero_fuel_sold} metric tons")
+            st.markdown(f"**Total Net-Zero Tickets Sold:** {total_net_zero_tickets_sold} tickets")
+            st.markdown(f"**Current OC Value:** ${current_oc_value}")
+        
+        with col22:
+            st.markdown("#### Carbon Reduction")
+            st.markdown(f"**Annual Offset (Committed):** {annual_offset_committed} metric tons CO₂e")
+            st.markdown(f"**Annual Offset (Actual):** {annual_offset_actual} metric tons CO₂e")
+            st.markdown(f"**Annual Offset (Variance):** {annual_offset_variance} ({annual_offset_variance / annual_offset_committed * 100:.2f}%) metric tons CO₂e")
+        
+        with col23:
+            st.markdown("#### Validation and Verification")
+            st.warning(f"{validation_date}: {validation_message}")
+            st.success(f"{success_date}: {success_message}")
+            st.info(f"{info_date}: {info_message}")
