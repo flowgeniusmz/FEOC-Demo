@@ -8,10 +8,8 @@ from Central_Performance_Panel import display_Central_Performance_Panel
 if 'authenticated' not in st.session_state:
     get_loginform()
 else:
-    st.set_page_config(page_title="Faulkner Emission Offset Certificate Program",page_icon="FEOC")
+    st.set_page_config(layout='wide',page_title="Faulkner Emission Offset Certificate Program",page_icon=")
     "---"
-#make it look nice from the start
-#st.set_page_config(layout='wide',initial_sidebar_state='collapsed',)
 # specify the primary menu definition
     menu_data = [
         {'label':"Performance Panel"},
@@ -28,7 +26,6 @@ else:
         sticky_nav=True,
         sticky_mode='sticky',  # 'jumpy' or 'not-jumpy', but sticky or pinned
 )
-    
 
     if menu_id== 'Performance Panel':
         display_Central_Performance_Panel()
@@ -39,10 +36,10 @@ else:
     #if menu_id== 'monitor existing certificates':
     
     
-    main_container = st.container()
-    with main_container:
-        exp1 = st.expander("Overview", expanded=True)
-        with exp1:
+    # main_container = st.container()
+    # with main_container:
+    #     exp1 = st.expander("Overview", expanded=True)
+    #     with exp1:
             st.header("Welcome")
             # Main content
             st.write("Welcome to the Emission Solutions Web App!")
