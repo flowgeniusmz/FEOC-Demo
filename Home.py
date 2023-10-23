@@ -11,7 +11,7 @@ if 'authenticated' not in st.session_state:
     get_loginform()
 else:
     menu_data = [
-        {'label':"Performance Panel"},
+        {'label':'Performance Panel'},
         {'label':"Action Panel",'':"Dropdown1", 'submenu':[{'label':"Create a Certificate"},{'id':'subid12', 'label':"monitor existing certificates"},{'id':'subid13', 'label':"contact partner(s)"}]},
         {'label':"Analytics Panel"},
     ]   
