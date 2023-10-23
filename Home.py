@@ -12,12 +12,9 @@ from Central_Performance_Panel import display_Central_Performance_Panel
 # specify the primary menu definition
 menu_data = [
     {'label':"Left End"},
-    {'label':"Performance Panel",'':"Dropdown1", 'submenu':[{'label':"General Performance "},{'id':'subid12', 'label':"individualize Performance"}]},
-    {'icon': "fa-solid fa-radar",'':"Dropdown1", 'submenu':[{'label':""},{'id':'subid12','icon': "💀", 'label':"Sub-item 2"},{'id':'subid13','icon': "fa fa-database", 'label':"Sub-item 3"}]},
-    {'icon': "far fa-chart-bar", 'label':"Analytics Panel"},#no tooltip message
-    {'id':' Crazy return value 💀','icon': "💀", 'label':"Calendar"},
-    {'icon': "fas fa-tachometer-alt", 'label':"Dashboard",'ttip':"I'm the Dashboard tooltip!"}, #can add a tooltip message
-    {'icon': "fa-solid fa-radar",'label':"Dropdown2", 'submenu':[{'label':"Sub-item 1.1", 'icon': "fa fa-meh"},{'label':"Sub-item 2"},{'icon':'🙉','label':"Sub-item 3",}]},
+    {'label':"Performance Panel",'':"Dropdown1", 'submenu':[{'label':"General Performance "},{'id':'subid12', 'label':"individualized Performance"}]},
+    {'label':"Action Panel",'':"Dropdown1", 'submenu':[{'label':"Create a Certificate"},{'id':'subid12', 'label':"monitor existing certificates"},{'id':'subid13', 'label':"contact partner(s)"}]},
+    {'label':"Analytics Panel"},
 ]
     
 over_theme = {'txc_inactive': '#FFFFFF'}
