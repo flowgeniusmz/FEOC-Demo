@@ -5,6 +5,7 @@ import hydralit_components as hc
 from Central_Performance_Panel import display_Central_Performance_Panel
 
 img= Image.open('.localdata/FG-Logo-612x312px.png')
+
 if 'authenticated' not in st.session_state:
     get_loginform()
 else:
