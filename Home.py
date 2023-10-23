@@ -5,9 +5,7 @@ from pagesetup import set_title
 import hydralit_components as hc
 from Central_Performance_Panel import display_Central_Performance_Panel
 
-img= Image.open('.localdata/FG-Logo-612x312px.png')
-st.set_page_config(layout='wide', page_title="Faulkner Emission Offset Certificate Program", icon=":earth_americas:")
-
+st.set_page_config(layout='wide', page_title="Faulkner Emission Offset Certificate Program")
 "---"
 if 'authenticated' not in st.session_state:
     get_loginform()
