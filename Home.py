@@ -41,7 +41,7 @@ else:
         display_contact_partners()
 
     elif menu_id== 'Analytics Panel':
-        display_analytics_panel()
+        display_Analytics_panel()
         
     elif menu_id== 'Home':
         st.header("Welcome")
