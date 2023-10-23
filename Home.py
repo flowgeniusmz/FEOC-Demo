@@ -10,7 +10,7 @@ img= Image.open('.localdata/FG-Logo-612x312px.png')
 if 'authenticated' not in st.session_state:
     get_loginform()
 else:
-    st.set_page_config(layout='wide',page_title="Faulkner Emission Offset Certificate Program", icon="img")
+    st.set_page_config(layout='wide', page_title="Faulkner Emission Offset Certificate Program", icon="./img.png")
     "---"
 # specify the primary menu definition
     menu_data = [
