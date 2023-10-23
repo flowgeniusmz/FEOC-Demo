@@ -3,6 +3,7 @@ from login import get_loginform
 from pagesetup import set_title
 import hydralit_components as hc
 from Central_Performance_Panel import display_Central_Performance_Panel
+from Analytics_panel import display_Analytics_panel
 import pandas as pd
 import numpy as np
 
