@@ -3,7 +3,7 @@ import streamlit as st
 def display_analytics_panel():
   import pandas as pd
   import numpy as np
-  from charts.heatmap import render_heatmap_cartesian
+  #from charts.heatmap import render_heatmap_cartesian
   
   set_title("FEOC", "Analytics Panel")
   st.divider()
