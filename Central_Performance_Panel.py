@@ -87,4 +87,4 @@ else:
             with col23:
                 st.markdown("#### Validation and Verification")
                 st.warning(f"{validation_date}: {validation_message}")
-                st.success(f"{success
+                st.success(f"{success}")
